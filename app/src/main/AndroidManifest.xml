@@ -9,7 +9,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
         <activity
             android:name=".Home"
             android:label="@string/app_name" >
@@ -26,6 +25,10 @@
         <activity
             android:name=".ConfirmOrderListView"
             android:label="@string/title_activity_confirm_order_list_view" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash" >
         </activity>
     </application>
 
