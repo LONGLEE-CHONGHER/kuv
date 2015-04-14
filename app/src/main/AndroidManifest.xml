@@ -9,14 +9,22 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name=".Home"
-            android:label="@string/app_name" >
+
+        <activity android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Full">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name">
+
         </activity>
         <activity
             android:name=".OrderActivity"
@@ -26,10 +34,7 @@
             android:name=".ConfirmOrderListView"
             android:label="@string/title_activity_confirm_order_list_view" >
         </activity>
-        <activity
-            android:name=".Splash"
-            android:label="@string/title_activity_splash" >
-        </activity>
+
     </application>
 
 </manifest>

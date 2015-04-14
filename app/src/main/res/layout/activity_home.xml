@@ -54,19 +54,7 @@
             android:textColor="@drawable/main_custom_button_text_color"
             android:layout_gravity="center_horizontal" />
 
-        <!-- Link to Login Screen -->
 
-        <Button
-            android:id="@+id/btnNotRegister"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
-            android:background="@null"
-            android:text="@string/btn_link_to_register"
-            android:textAllCaps="false"
-            android:textColor="@drawable/main_custom_button_text_color"
-            android:textSize="15dp"
-            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
 </LinearLayout>
