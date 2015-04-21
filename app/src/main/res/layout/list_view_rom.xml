@@ -30,6 +30,7 @@
             android:text="New Text"
             android:id="@+id/txtListPrice"
             android:textStyle="bold"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:textColor="#ff5f6cd3" />
     </LinearLayout>
 </LinearLayout>

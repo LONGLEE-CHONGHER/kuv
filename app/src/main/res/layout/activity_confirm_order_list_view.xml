@@ -41,7 +41,7 @@
             android:text="More Order"
             android:onClick="clickAddOrder"
             android:textColor="@drawable/main_custom_button_text_color"
-            android:background="@drawable/button"
+            android:background="@drawable/main_custom_button"
             android:id="@+id/button2"
             android:layout_weight="1" />
 
@@ -51,7 +51,7 @@
             android:text="Upload Order"
             android:onClick="clickUploadOrder"
             android:textColor="@drawable/main_custom_button_text_color"
-            android:background="@drawable/button"
+            android:background="@drawable/custom_button"
             android:id="@+id/button3"
             android:layout_weight="1" />
     </LinearLayout>
