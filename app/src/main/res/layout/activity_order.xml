@@ -39,7 +39,7 @@
             android:id="@+id/edtTable"
             android:layout_weight="1"
             android:inputType="number"
-            android:hint="Your address" />
+            android:hint="Street number" />
     </LinearLayout>
 
     <ListView

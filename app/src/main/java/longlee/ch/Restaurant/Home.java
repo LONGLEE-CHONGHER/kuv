@@ -116,7 +116,7 @@ public class Home extends ActionBarActivity {
         AlertDialog.Builder objAlert = new AlertDialog.Builder(this);
         objAlert.setIcon(R.drawable.show);
         objAlert.setTitle("WELCOME");
-        objAlert.setMessage("Welcome " + strOfficer + "\n" + "To my Restaurant");
+        objAlert.setMessage("Welcome " + strOfficer + "\n" + "To DDS Restaurant");
         objAlert.setCancelable(false);
         objAlert.setNegativeButton("Cancle", new DialogInterface.OnClickListener() {
             @Override

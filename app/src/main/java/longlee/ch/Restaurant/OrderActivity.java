@@ -69,7 +69,7 @@ public class OrderActivity extends ActionBarActivity {
         strNumberTable = edtTable.getText().toString().trim();
         if (strNumberTable.equals("")) {
             MyAlertDialog objMyAlertDialog = new MyAlertDialog();
-            objMyAlertDialog.alertDialog(OrderActivity.this, "YOUR ADDRESS", "Please insert your address");
+            objMyAlertDialog.alertDialog(OrderActivity.this, "YOUR ADDRESS", "Please insert your street number");
         }
     }
 
@@ -82,7 +82,7 @@ public class OrderActivity extends ActionBarActivity {
                 strNumberTable = edtTable.getText().toString().trim();
                 if (strNumberTable.equals("")) {
                     MyAlertDialog objMyAlertDialog = new MyAlertDialog();
-                    objMyAlertDialog.alertDialog(OrderActivity.this, "YOUR ADDRESS", "Please insert your address");
+                    objMyAlertDialog.alertDialog(OrderActivity.this, "YOUR ADDRESS", "Please insert street number");
                 } else {
                     alertAmountOrder();
                     strFood = strMenu[position];
